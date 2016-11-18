@@ -1,39 +1,54 @@
 body {
     margin: 100px;
     text-align: center;
+    background-color: #333;
+}
+
+.extreme {
+    background-color: #555;
+    border-radius: 10px;
+    width: 50%;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.navzone {
+    background-color: #777;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 20px;
+    width: 75%; 
+}
+
+h1, h2, h3, p {
+    color: #EEE;
+    font-family: sans-serif;
 }
 
 h1 {
     font-size: 24pt;
-    font-family: serif;
 }
 
 h2 {
     font-size: 20pt;
-    font-family: serif;
 }
 
 h3 {
     font-size: 16pt;
-    font-family: serif;
 }
 
 p {
     font-size: 12pt;
-    font-family: sans-serif;
 }
 
 a {
-    text-decoration: underline;
-    color: red
+    text-decoration: none;
+    color: red;
 }
 
 ul {
-    margin: auto;
-    padding: 0px;
-    background-color: darkgray;
-    width: 200px;
     padding: 10px;
+    background-color: darkgray;
 }
 
 li {

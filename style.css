@@ -1,26 +1,44 @@
 body {
     margin: 50px;
     text-align: center;
+    background-color: #EEE;
+}
+
+.extreme {
+    background-color: #F67E7D;
+    border-radius: 10px;
+    width: 50%;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.navzone {
+    background-color: #82FF9E;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 20px;
+    width: 75%; 
+}
+
+h1, h2, h3, p {
+    color: #333;
+    font-family: "Times New Roman";
 }
 
 h1 {
     font-size: 24pt;
-    font-family: sans-serif;
 }
 
 h2 {
     font-size: 20pt;
-    font-family: sans-serif;
 }
 
 h3 {
     font-size: 16pt;
-    font-family: sans-serif;
 }
 
 p {
     font-size: 12pt;
-    font-family: serif;
 }
 
 a {
